@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/school"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <TextView
+            android:text="Settings"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey1"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/language"/>
+
+        <Button
+            android:id="@+id/chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"
+            android:text="简体中文" />
+
+        <Button
+            android:id="@+id/english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape"
+            android:textColor="@color/black"
+            android:text="ENGLISH" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey2"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/pri_con"/>4
+
+        <TextView
+            android:text="Private contacts"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/grey1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/backup"/>
+        <TextView
+            android:text="Backup"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/grey1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey2"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/restore"/>
+        <TextView
+            android:text="Restore"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/grey1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/about"/>
+        <TextView
+            android:text="About"
+            android:layout_marginLeft="20dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            android:onClick="goToAboutActivity"
+            android:textColor="@color/grey1"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
